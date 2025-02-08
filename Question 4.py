@@ -1,14 +1,14 @@
 #Question 4
 a_list = []
 while True:
-    a = input('Enter a list of numbers, when you want to finish entering enter +:')
+    a = input('Enter a list of numbers, when you want to finish enter +:')
     if a != '+':
         a_list.append(a)
     else:
         break
 b_list = []
 while True:
-    a = input('Enter a new list of numbers, when you want to finish entering enter +:')
+    a = input('Enter a new list of numbers, when you want to finish enter +:')
     if a != '+':
         b_list.append(a)
     else:
